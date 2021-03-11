@@ -20,16 +20,17 @@
                 "height": 80
               },
               "position": {
-                "x": 806,
-                "y": 12
+                "x": 1012,
+                "y": 1
               },
               "angle": 0,
               "id": "157245c7-9269-437b-9e30-bb5112a43326",
               "z": 2,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Satelites"
@@ -46,8 +47,8 @@
                 "height": 80
               },
               "position": {
-                "x": 493,
-                "y": 210
+                "x": 473,
+                "y": 223
               },
               "angle": 0,
               "id": "c3ca2205-12ac-42b4-8463-7166e357aefd",
@@ -106,8 +107,8 @@
                 "height": 80
               },
               "position": {
-                "x": 129,
-                "y": 436
+                "x": 160,
+                "y": 455
               },
               "angle": 0,
               "id": "5367c8c1-0629-457c-a2e5-d599731b549a",
@@ -174,9 +175,10 @@
               "id": "a0d3eebc-29e3-4f95-bd7b-51353e3825ae",
               "z": 7,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Operator"
@@ -248,8 +250,8 @@
                 "y": 109
               },
               "target": {
-                "x": 909,
-                "y": 264
+                "x": 1181,
+                "y": 332
               },
               "vertices": [],
               "id": "ac5f4b5b-aa40-49d5-9d2b-cc74c7efd60b",
@@ -260,7 +262,7 @@
         },
         "size": {
           "height": 1865,
-          "width": 1066
+          "width": 1182.9364013671875
         }
       }
     ]
