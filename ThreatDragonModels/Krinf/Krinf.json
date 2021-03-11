@@ -223,6 +223,38 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 49,
+                "y": 261
+              },
+              "target": {
+                "x": 522,
+                "y": 110
+              },
+              "vertices": [],
+              "id": "8cbd60a9-c88e-4143-b8d1-58c07b9caa64",
+              "z": 9,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 527,
+                "y": 109
+              },
+              "target": {
+                "x": 909,
+                "y": 264
+              },
+              "vertices": [],
+              "id": "ac5f4b5b-aa40-49d5-9d2b-cc74c7efd60b",
+              "z": 10,
+              "attrs": {}
             }
           ]
         },
