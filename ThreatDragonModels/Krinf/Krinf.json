@@ -20,8 +20,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1012,
-                "y": 1
+                "x": 822,
+                "y": 68
               },
               "angle": 0,
               "id": "157245c7-9269-437b-9e30-bb5112a43326",
@@ -67,40 +67,6 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "c3ca2205-12ac-42b4-8463-7166e357aefd"
-              },
-              "target": {
-                "id": "157245c7-9269-437b-9e30-bb5112a43326"
-              },
-              "vertices": [],
-              "id": "fcbd20c9-638d-492d-a60d-5c7b182efc16",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "GPS",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Actor",
               "size": {
                 "width": 160,
@@ -142,7 +108,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "NTP distribution",
+                      "text": "Ethernet (NTP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -207,7 +173,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "Ethernet",
+                      "text": "Ethernet (FTP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -257,6 +223,74 @@
               "id": "ac5f4b5b-aa40-49d5-9d2b-cc74c7efd60b",
               "z": 10,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c3ca2205-12ac-42b4-8463-7166e357aefd"
+              },
+              "target": {
+                "id": "a0d3eebc-29e3-4f95-bd7b-51353e3825ae"
+              },
+              "vertices": [],
+              "id": "e07e35f0-ae80-473c-8ab6-b1b30ddc9634",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "157245c7-9269-437b-9e30-bb5112a43326"
+              },
+              "target": {
+                "id": "c3ca2205-12ac-42b4-8463-7166e357aefd"
+              },
+              "vertices": [],
+              "id": "5c9faa6f-9912-4b29-b6fd-ca68f053bf6c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Antenne (GPS)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
