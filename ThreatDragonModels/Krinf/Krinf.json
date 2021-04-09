@@ -583,6 +583,11 @@
           "height": 1865,
           "width": 1182.9364013671875
         }
+      },
+      {
+        "title": "SPREN2",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
       }
     ]
   }
