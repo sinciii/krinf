@@ -1184,6 +1184,11 @@
           "height": 592,
           "width": 906.7802124023438
         }
+      },
+      {
+        "title": "Eye-Traking",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 2
       }
     ]
   }
